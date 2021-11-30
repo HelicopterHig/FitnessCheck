@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="202dp" />
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart2"
+        android:layout_width="match_parent"
+        android:layout_height="202dp" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart3"
+        android:layout_width="match_parent"
+        android:layout_height="202dp" />
+
+    <TextView
+    android:id="@+id/callTod"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Today_is_DATE"
+    android:textAlignment="center"
+    android:fontFamily="@font/roboto_thin"
+    android:textColor="#000000"
+    android:textSize="20sp"
+    />
+
+    <TextView
+        android:id="@+id/callAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today_is_DATE"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/belAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today_is_DATE"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/zirAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today_is_DATE"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/uglAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today_is_DATE"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
